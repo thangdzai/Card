@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
+  font-size: 17px;
+}
+
+.card-avatar {
+  width: 150px;
+  height: 150px;
+}
+
+.card-avatar-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 5px solid wheat;
+  outline: 3px solid rgb(14, 137, 144);
+  position: relative;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: #8cb5df;
+}
+
+.card {
+  display: flex;
+  max-width: 280px;
+  width: 100%;
+  background-color: #e69a9a;
+  max-height: 350px;
+  height: 100%;
+  box-shadow: 5px 10px 5px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  flex-direction: column;
+  position: relative;
+}
+
+.card-info {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 34%;
+  background-color: rgb(14, 137, 144);
+  border-radius: 25px 25px 0 0;
+  top: 0;
+  left: 0;
+}
+
+.card-social {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 19px;
+  height: 40px;
+  width: 40px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.card-FaceBook {
+  color: white;
+  background-color: blue;
+  padding: 4px 7px;
+  margin: 1px;
+}
+
+.card-GitHub {
+  color: white;
+  background-color: black;
+  padding: 4px;
+  margin: 1px;
+}
+
+.card-ins {
+  color: white;
+  background-color: red;
+  padding: 4px;
+  margin: 1px;
+}
+
+.card-hotline {
+  color: white;
+  background-color: forestgreen;
+  padding: 4px;
+  margin: 1px;
+}
+
+.card-gmail {
+  color: white;
+  background-color: brown;
+  padding: 4px;
+  margin: 1px;
+}
+
+.card-button-DANG {
+  border-radius: 25px;
+  height: 40px;
+  width: 90px;
+  border: 3px solid brown;
+}
+
+.card-button-GUI {
+  border-radius: 25px;
+  height: 40px;
+  width: 90px;
+  border: 3px solid brown;
+}
+
+.card-button-DANG:hover {
+  color: white;
+  background-color: rgb(76, 21, 21);
+}
+
+.card-button-GUI:hover {
+  color: white;
+  background-color: rgb(76, 21, 21);
+}
+
+.card-FaceBook:hover {
+  padding: 10px 13px;
+}
+
+.card-GitHub:hover {
+  padding: 10px;
+}
+
+.card-ins:hover {
+  padding: 10px;
+}
+
+.card-hotline:hover {
+  padding: 10px;
+}
+
+.card-gmail:hover {
+  padding: 10px;
+}
